@@ -1,0 +1,32 @@
+.counterH1{
+    display: flex;
+    justify-content: center;
+    color: hsl(240, 100%, 30%);
+    
+}
+
+
+
+
+#countLabel{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvitica;
+}
+#container-btns{
+    text-align: center;
+} 
+.button-class{
+    padding:10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: hsla(0, 0%, 70%);
+    border-radius: 5px;
+    cursor: progress;
+    transition:background-color 0.2s;
+    
+}
+.button-class:hover{
+    background-color:hsla(0, 0%, 30%); 
+}
